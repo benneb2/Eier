@@ -84,19 +84,19 @@ void printSettings()
           
           if(flikkerState == 0)
           {
-            if (TYD == t10)
-		  bitSet(lights,3);
-    	      else if (TYD == t20)
-    		  bitSet(lights,4);
-    	      else if (TYD == t30)
-    		  bitSet(lights,5);
-    	      else if (TYD == t40)
-    		  bitSet(lights,6);
-    
-            if (DIR == dr)
-    		  bitSet(lights,1);
-            else if (DIR == dl)
-    	  	  bitSet(lights,2);
+//            if (TYD == t10)
+//		  bitSet(lights,3);
+//    	      else if (TYD == t20)
+//    		  bitSet(lights,4);
+//    	      else if (TYD == t30)
+//    		  bitSet(lights,5);
+//    	      else if (TYD == t40)
+//    		  bitSet(lights,6);
+//    
+//            if (DIR == dr)
+//    		  bitSet(lights,1);
+//            else if (DIR == dl)
+//    	  	  bitSet(lights,2);
     
             bitSet(lights,0);
 	      bitSet(lights,7);
